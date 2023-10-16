@@ -40,7 +40,4 @@ public class ACustomStringCollection
         sut.Add("E");
         Assert.That(sut.ToString(), Is.EqualTo("{Z,A,B,D,E}"));
     }
-
-
-
 }
