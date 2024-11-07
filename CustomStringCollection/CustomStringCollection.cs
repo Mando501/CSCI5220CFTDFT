@@ -95,7 +95,7 @@ public class CustomStringCollection
         for (int i = 0; i < NumberOfStrings; i++)
         {
             sb.Append(_strings[i]);
-            if (i < NumberOfStrings)
+            if (i < NumberOfStrings - 1)
             {
                 sb.Append(',');
             }
